@@ -1,0 +1,2 @@
+class Prokeymans < ApplicationRecord
+end
