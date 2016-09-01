@@ -1,0 +1,20 @@
+<canvas class="fireworks"></canvas>
+
+<div class="wrapper">
+
+  <header class="header">
+    <img src="/assets/Prokéymans.png" alt="Prokéymans Logo" class="logo banner" />
+  </header>
+
+  <!-- Create image grid of Prokéymans -->
+  <ul id="rig">
+    <%= @prokeymans.each do |prokeyman| %>
+      <li>
+          <a class="rig-cell" href="#">
+              <img class="rig-img" src="<%= prokeyman.image_url %>">
+              <span class="rig-text"><%= prokeyman.name %></span>
+          </a>
+      </li>
+    <% end %>
+  </ul>
+</div>
