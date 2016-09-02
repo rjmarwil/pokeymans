@@ -10,6 +10,7 @@ prokeymans_list = [
   [ "Butterpup", "/assets/butterpup.png"],
   [ "Butterdog", "/assets/butterdog.png"],
   [ "Creamrat", "/assets/creamrat.png"],
+  [ "Rocktopus", "/assets/rocktopus.png"],
   [ "Dads-Toupee", "/assets/dadstoupee.png"],
   [ "Dingus", "/assets/dingus.png"],
   [ "Brungus", "/assets/brungus.png"],
